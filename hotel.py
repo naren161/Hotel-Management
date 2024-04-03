@@ -46,15 +46,8 @@ class customer:
         break
     return Total_items
 
-  class Bill_counter:
-    def Customer_billing(self,Order_details):
-      self.order_details=Order_details
-      print("\nYour order total:",sum(self.order_details),"\n")
-
 bas = hotel(["idly - RS10\nvada - RS5\npongal - RS15"])
 naren = customer()
-
-
         
 while True:
   print("Welcome to NANBA STAR Hotel")
